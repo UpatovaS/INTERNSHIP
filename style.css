@@ -10,16 +10,24 @@ table, th, td {
    border: 1px solid black;
    padding: 10px;
    text-align: center;
+   margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
 	text-align:  center;
+    text-indent: -50px;
 }
 
+h2 {
+	text-align:  center;
+    text-indent: -330px;
+}
 .footer {
+	
   max-width: 200px;
-  height: 1000px;
-  margin: 0 auto;
+  height: 5000px;
+  margin: 0 auto 100px;
+  padding: 100px;
   font-weight: normal;
   
  
@@ -27,7 +35,7 @@ h1, h2 {
 
 
 .hr-line {
-    display: block;
+   
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: auto;
